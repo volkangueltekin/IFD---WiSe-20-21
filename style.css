@@ -1,0 +1,33 @@
+body {
+    background: black;
+
+}
+
+h1{
+    color:white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    
+    border-bottom: solid;
+    width: 100%;
+    border-color: white
+        }
+
+.content{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.work{
+    border: solid;
+    border-color: #03B670;
+    padding: 35px;
+    background: #03B670;
+}
