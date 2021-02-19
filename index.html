@@ -1,26 +1,116 @@
 <!DOCTYPE html>
-<html lang="de">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-    <title>Inferface Design</title>
-  </head>
-  <body>
-<div class="header">
-<h1>IFD-WiSe-20/21<h1/>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Interface-Design</b> 5. Semester</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
     </div>
-    <div class="content">
-    <a class="work" href="https://xd.adobe.com/view/614feed2-5b6f-424b-9f63-3bcf6bbdc6ca-341c/">Aufgabe 0</a>
-    <a class="work" href="https://xd.adobe.com/view/29affed9-2dab-4f48-aae5-cfdfedf05695-7cfc/">Aufgabe 1</a>
-    <a class="work" href="https://xd.adobe.com/view/2eabab24-8736-44cf-a009-1f0754008082-7bf8/">Aufgabe 2.1<br>Mit Kevin Attinger</a>
-    <a class="work" href="Aufgabe2.2.pdf">Aufgabe2.2</a>
-    <a class="work" href="https://xd.adobe.com/view/632483ac-aa34-4138-b39d-77bec8618e85-3677/">Aufgabe 3</a>
-    <a class="work" href="aufgabe4.pdf">Aufgabe 4</a>
-    <a class="work" href="https://webuser.hs-furtwangen.de/~guelteki/interface-design/playground-artyom.html">Aufgabe 5</a>
-    <a class="work" href="https://xd.adobe.com/view/c3f7d3a1-8233-4388-84fb-066ce60c27fa-96a4/">Aufgabe 6</a>
-    <a class="work" href="./aufgabe7/Interface-Prototype.m4v">Aufgabe 7</a>
-    <a class="work" href="https://app.draftxr.com/vr/t44jPe">Aufgabe 10</a>
-        </div>
-      </body>
-</html>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="./media/header.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Interface-Design</b></h1></span>
+  </div>
+</header>
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container"> 
+            <a href="https://xd.adobe.com/view/614feed2-5b6f-424b-9f63-3bcf6bbdc6ca-341c/">
+        <div class="w3-display-topleft w3-black w3-padding">Swot-Analyse</div>
+        <img src="./media/swot.jpg" alt="House" style="width:100%" > 
+                </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container"> <a href="https://xd.adobe.com/view/29affed9-2dab-4f48-aae5-cfdfedf05695-7cfc/">
+        <div class="w3-display-topleft w3-black w3-padding">Wallet-Projekt</div>
+        <img src="./media/wallet.jpg" alt="House" style="width:100%">
+          </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container"> <a href="https://xd.adobe.com/view/2eabab24-8736-44cf-a009-1f0754008082-7bf8/">
+        <div class="w3-display-topleft w3-black w3-padding">Konzept Intranet</div>
+        <img src="media/intranet.jpg" alt="House" style="width:100%">
+          </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container"> <a href="https://github.com/volkangueltekin/IFD---WiSe-20-21/blob/main/Aufgabe%204/aufgabe4.pdf">
+        <div class="w3-display-topleft w3-black w3-padding">Sprachassistent Konzept</div>
+        <img src="media/spirit.jpg" alt="House" style="width:100%">
+          </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container"> <a href="https://webuser.hs-furtwangen.de/~guelteki/interface-design/playground-artyom.html">
+        <div class="w3-display-topleft w3-black w3-padding">Sprachassitent Entwicklung</div>
+        <img src="media/sprachassitent.jpg" alt="House" style="width:99%">
+          </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container"> <a href="https://xd.adobe.com/view/c3f7d3a1-8233-4388-84fb-066ce60c27fa-96a4/">
+        <div class="w3-display-topleft w3-black w3-padding">VR-Brille</div>
+        <img src="media/vr.jpg" alt="House" style="width:99%">
+          </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container"> <a href="https://volkangueltekin.github.io/IFD---WiSe-20-21/aufgabe7/Interface-Prototype.m4v">
+        <div class="w3-display-topleft w3-black w3-padding">VR-Video Konzept</div>
+        <img src="media/vr-konzept.jpg" alt="House" style="width:99%">
+          </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container"> <a href="https://app.draftxr.com/vr/t44jPe">
+        <div class="w3-display-topleft w3-black w3-padding">VR-Video Prototype</div>
+        <img src="media/vr-entwicklung.jpg" alt="House" style="width:99%">
+          </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <p>Ich bin Volkan Gültekin und studiere Online Medien Bachelor im 5. Semester. Neben dem Studium bin ich als Webdesigner tätig und konnte dadurch sehr viel an Erfahrungen sammeln. Ich habe während meiner Studienzeit gemerkt, dass mir das Designen eher im Bauch liegt, als das Programmieren. Deshalb würde ich die Entwicklung zu meinen Schwächen zählen. 
+    </p>
+  </div>
+
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="./media/me.jpg" alt="John" style="width:100%">
+      <h3>Volkan Gültekin</h3>
+      <p class="w3-opacity">Webdesigner</p>
+    </div>
+
+  </div>
+
+
+</body>
